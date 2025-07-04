@@ -2,17 +2,18 @@
   <!-- Circle background -->
   <circle cx="32" cy="32" r="30" fill="rgba(255, 255, 255, 0.1)" stroke="rgba(255, 255, 255, 0.3)" stroke-width="2"/>
   
-  <!-- Simple stick figure icon -->
-  <g fill="white">
+  <!-- Stick figure icon matching the screenshot -->
+  <g fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <!-- Head -->
-    <circle cx="32" cy="18" r="4"/>
+    <circle cx="32" cy="18" r="3" fill="white"/>
     <!-- Body -->
-    <rect x="31" y="22" width="2" height="16"/>
-    <!-- Arms (horizontal line) -->
-    <rect x="22" y="29" width="20" height="2"/>
-    <!-- Legs -->
-    <rect x="28" y="38" width="2" height="10"/>
-    <rect x="34" y="38" width="2" height="10"/>
+    <line x1="32" y1="22" x2="32" y2="38"/>
+    <!-- Arms (angled upward like Y shape) -->
+    <line x1="32" y1="26" x2="26" y2="20"/>
+    <line x1="32" y1="26" x2="38" y2="20"/>
+    <!-- Legs (angled outward) -->
+    <line x1="32" y1="38" x2="27" y2="47"/>
+    <line x1="32" y1="38" x2="37" y2="47"/>
   </g>
   
   <!-- BoneProactive text -->
