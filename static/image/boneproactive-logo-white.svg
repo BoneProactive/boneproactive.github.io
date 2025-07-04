@@ -1,0 +1,21 @@
+<svg width="280" height="64" viewBox="0 0 280 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stick figure icon in circle -->
+  <circle cx="32" cy="32" r="30" fill="rgba(255, 255, 255, 0.1)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="2"/>
+  
+  <!-- PersonStandingIcon (stick figure) -->
+  <g transform="translate(12, 8)" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="20" cy="8" r="4"/>
+    <!-- Body -->
+    <path d="M20 12v20"/>
+    <!-- Arms -->
+    <path d="M12 20l8-8 8 8"/>
+    <!-- Legs -->
+    <path d="M16 32l4-8 4 8"/>
+    <path d="M16 32v8"/>
+    <path d="M24 32v8"/>
+  </g>
+  
+  <!-- BoneProactive text -->
+  <text x="80" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">BoneProactive</text>
+</svg> 
