@@ -2,5 +2,5 @@
   <!-- BoneProactive text -->
   <text x="20" y="50" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="51" font-weight="700" fill="white">BoneProactive</text>
   <!-- TM superscript -->
-  <text x="430" y="29" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="white">™</text>
+  <text x="370" y="18" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="white">™</text>
 </svg> 
