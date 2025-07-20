@@ -3614,4 +3614,58 @@ footer .footer-list li:last-child {
 footer .footer-bar {
   border-top: 1px solid #252f4c;
 }
+
+/*********************************/
+/*      Logo Responsive Styles  */
+/*===============================*/
+.logo-container {
+  padding-top: 60px;
+}
+
+.logo-img {
+  height: 80px;
+  max-width: 100%;
+  width: auto;
+}
+
+/* Tablet and smaller desktop */
+@media (max-width: 991px) {
+  .logo-container {
+    padding-top: 40px;
+  }
+  .logo-img {
+    height: 70px;
+  }
+}
+
+/* Mobile landscape */
+@media (max-width: 768px) {
+  .logo-container {
+    padding-top: 30px;
+  }
+  .logo-img {
+    height: 60px;
+  }
+}
+
+/* Mobile portrait */
+@media (max-width: 575px) {
+  .logo-container {
+    padding-top: 20px;
+  }
+  .logo-img {
+    height: 50px;
+  }
+}
+
+/* Small mobile screens */
+@media (max-width: 375px) {
+  .logo-container {
+    padding-top: 15px;
+  }
+  .logo-img {
+    height: 45px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
