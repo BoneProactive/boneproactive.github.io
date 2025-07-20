@@ -3622,6 +3622,29 @@ footer .footer-bar {
   padding-top: 60px;
 }
 
+/* Coming Soon heading styling - 10% bigger than default h2 */
+.title-dark {
+  font-size: 2.2rem !important; /* 10% bigger than default 2rem */
+}
+
+@media (max-width: 1200px) {
+  .title-dark {
+    font-size: calc(1.458rem + 0.99vw) !important; /* 10% bigger than Bootstrap's responsive calc */
+  }
+}
+
+@media (max-width: 768px) {
+  .title-dark {
+    font-size: 2rem !important; /* Adjusted for mobile */
+  }
+}
+
+@media (max-width: 575px) {
+  .title-dark {
+    font-size: 1.8rem !important; /* Slightly smaller for mobile portrait */
+  }
+}
+
 .logo-img {
   height: 80px;
   max-width: 100%;
