@@ -46,7 +46,7 @@ if(document.getElementsByClassName('tiny-single-item').length > 0) {
 try {
     if(document.getElementById("days")){
         // The data/time we want to countdown to
-        var eventCountDown = new Date("December 25, 2025 16:37:52").getTime();
+        var eventCountDown = new Date("December 25, 2026 16:37:52").getTime();
 
         // Run myfunc every second
         var myfunc = setInterval(function () {
